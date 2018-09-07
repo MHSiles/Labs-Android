@@ -71,9 +71,9 @@ public class MainActivity extends AppCompatActivity {
                 TextView titulo = (TextView) findViewById(R.id.textView);
 
                 if (count == 1){
-                    titulo.setText("Click");
+                    titulo.setText("Hola");
                 }else{
-                    titulo.setText("Click x" + count);
+                    titulo.setText("Hola x" + count);
                 }
 
                 count++;
