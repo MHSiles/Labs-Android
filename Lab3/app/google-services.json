@@ -1,35 +1,27 @@
 {
   "project_info": {
-    "project_number": "901379363179",
-    "firebase_url": "https://lab3-ceb62.firebaseio.com",
-    "project_id": "lab3-ceb62",
-    "storage_bucket": "lab3-ceb62.appspot.com"
+    "project_number": "372251974362",
+    "firebase_url": "https://labnotificaciones-339dc.firebaseio.com",
+    "project_id": "labnotificaciones-339dc",
+    "storage_bucket": "labnotificaciones-339dc.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:901379363179:android:88b7cdf289f44687",
+        "mobilesdk_app_id": "1:372251974362:android:88b7cdf289f44687",
         "android_client_info": {
           "package_name": "mx.itesm.sensors"
         }
       },
       "oauth_client": [
         {
-          "client_id": "901379363179-hmet50t580k5gn1djqq0lmbb2dg56056.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "mx.itesm.sensors",
-            "certificate_hash": "4b9b6dae60aa2af87d054bef81dbd63ec0cda317"
-          }
-        },
-        {
-          "client_id": "901379363179-6v5jv8d41v6fd8skcna3s3ihfn2vr504.apps.googleusercontent.com",
+          "client_id": "372251974362-orvnb1i54960suu7bak26d791nn3spjd.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCcmPzp-hniCtLBjtTITm7CT-CnNuXueO4"
+          "current_key": "AIzaSyDPos5pI9k5a7W5uqkr5d1mybtr0PwLlcc"
         }
       ],
       "services": {
@@ -37,13 +29,8 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 2,
-          "other_platform_oauth_client": [
-            {
-              "client_id": "901379363179-6v5jv8d41v6fd8skcna3s3ihfn2vr504.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "status": 1,
+          "other_platform_oauth_client": []
         },
         "ads_service": {
           "status": 2
