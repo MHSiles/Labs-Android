@@ -1,0 +1,19 @@
+<ion-view title="My Stock Portfolio" id="page1">
+  <ion-content padding="true" class="has-header">
+    <form id="myStockPortfolio-form3" class="list">
+      <label class="item item-select" id="myStockPortfolio-select2">
+        <span class="input-label">Company</span>
+        <select ng-model="model.company">
+          <option value="AAP">Apple Computer – AAP</option>
+          <option value="GE">General Electric Company – GE</option>
+          <option value="SBUX">Starbucks Corporation – SBUX</option>
+          <option value="WBA">Walgreens Company – WBA</option>
+        </select>
+      </label>
+      <button id="myStockPortfolio-button1" class="button button-positive button-block" ui-sref="companyStock({company: model.company})">Show</button>
+    </form>
+    <!-- <p>
+      Company: {{model.company}}
+    </p> -->
+  </ion-content>
+</ion-view>

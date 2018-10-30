@@ -1,0 +1,24 @@
+<ion-view title="Company Stock" id="page2">
+  <ion-content padding="true" class="has-header">
+    <div>
+      <h3>The Market at the Moment</h3>
+      <p>
+        <b>Symbol: </b> {{company}}
+      </p>
+      <p>
+        <b>Current Stock Price:</b> {{price}}
+      </p>
+      <p>
+        <b>Last analysis: </b>  {{day}}
+      </p>
+      <p style="color: {{recomendationColor}}">
+        <b style="color: black">Difference: </b> {{difference}}
+      </p>
+      <p style="color: {{recomendationColor}}">
+        <b style="color: black">Recomendation:</b>
+        {{recomendation}}
+      </p>
+    </div>
+    <button id="myStockPortfolio-button1" class="button button-positive button-block" ui-sref="myStockPortfolio()">Return</button>
+  </ion-content>
+</ion-view>

@@ -1,0 +1,39 @@
+<ion-view title="Page" id="page1">
+  <ion-content padding="true" class="has-header">
+    <h2>Check the weather:</h2>
+    <form id="page-form2" class="list">
+      <label class="item item-input" id="page-input2">
+        <span class="input-label">City</span>
+        <input ng-model="model.city" type="text" placeholder="">
+      </label>
+      <!-- <ion-toggle toggle-class="toggle-positive" id="page-toggle1" ng-model="model.student">
+        Student
+      </ion-toggle>
+      <label class="item item-select" id="page-select1">
+        <span class="input-label">Age</span>
+        <select ng-model="model.age">
+          <option value="19">19</option>
+          <option value="20">20</option>
+          <option value="21">21</option>
+          <option value="22">22</option>
+          <option value="23">23</option>
+        </select>
+      </label> -->
+      <button id="btn" class="button button-positive button-block" ui-sref="page2({city: model.city})">
+        Submit
+      </button>
+    </form>
+    <p>
+      City: {{model.city}}
+    </p>
+    <!-- <p>
+      Name: {{model.name}}
+    </p> -->
+    <!-- <p>
+      Student: {{model.student}}
+    </p>
+    <p>
+      Age: {{model.age}}
+    </p> -->
+  </ion-content>
+</ion-view>
